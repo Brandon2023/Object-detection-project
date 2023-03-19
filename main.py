@@ -22,7 +22,7 @@ while True:
         print("no stream") 
         break
 
-    cv.imshow('birb detection', frame)
+    cv.imshow('package detector', frame)
     if cv.waitKey(1) == ord('w'):
         break
 
