@@ -1,1 +1,1 @@
-# Object-detection-project
+# parcel-detection-project
