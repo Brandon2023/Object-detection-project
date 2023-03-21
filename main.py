@@ -1,7 +1,7 @@
 import cv2 as cv
 
 cam = cv.VideoCapture(0)
-package_data = cv.CascadeClassifier('')
+package_data = cv.CascadeClassifier('haarcascade_eye.xml.xml')
 
 if not cam.isOpened():
     print("Camera not working")
