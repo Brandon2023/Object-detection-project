@@ -1,3 +1,3 @@
-# package-detection-project
+# package-detection-project (now eye detection)
 
-still working on xml file for project
+With limited time this project is now a eye detector. Same code different XML file from opencv github.
