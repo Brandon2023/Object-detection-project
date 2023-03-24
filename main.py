@@ -12,7 +12,7 @@ def package(frame):
     box = package_data.detectMultiScale(frame_colour)
     for (x,y,w,h) in box:
         cv.rectangle(frame, (x,y), (x+w,y+h), (0,255,0), 2)
-        print("object detected")
+        print("eyes detected")
 
 while True:
     ret, frame = cam.read()
