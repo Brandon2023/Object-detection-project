@@ -12,6 +12,7 @@ def package(frame):
     box = package_data.detectMultiScale(frame_colour)
     for (x,y,w,h) in box:
         cv.rectangle(frame, (x,y), (x+w,y+h), (0,255,0), 2)
+        cv.putText(frame,'test', (x,y-10, cv.FONT_HERSHEY_COMPLEX_SMALL, 0.8, (0,255,0), 2))
         print("eyes detected")
 
 while True:
